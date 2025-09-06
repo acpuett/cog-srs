@@ -16,11 +16,10 @@ export default function Home() {
           <Image src={brainpic} width={450} height={450} alt="brain pic" className="mb-10 md:mb-0" />
           <div className="flex flex-col items-start text-left md:ml-10">
             <h1 className="text-7xl font-extralight mb-4">Welcome to COG-SRS</h1>
-            <p className="text-3xl mb-10">An interactive, educational platform for cognitive-sparing SRS</p>
+            <p className="text-2xl mb-10">Cognitive-Sparing Stereotactic Radiosurgery</p>
             <div className="space-y-4">
-              <p className="text-2xl">Designed for patients, providers, and anyone looking for</p>
-              <p className="text-2xl">more information on the latest advancements in</p>
-              <p className="text-2xl">radiotherapy techniques for Brain Metastases</p>
+              <p className="text-2xl">____________________________________________________________</p>
+              <p className="text-4xl text-blue-200">Target the tumor. Protect what matters.</p>
             </div>
           </div>
         </div>
