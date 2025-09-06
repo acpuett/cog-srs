@@ -283,8 +283,8 @@ const Home = () => {
       <Navbar />
       <div className="border-t border-white"></div>
 
-      <div className="flex flex-1">
-        <div className="w-1/5 p-4 flex flex-col justify-center space-y-8">
+    <div className="flex flex-1 flex-col md:flex-row">
+  <div className="w-full md:w-1/5 p-4 flex flex-col justify-center space-y-8">
           <button
             className="text-white text-2xl w-full text-center p-6 bg-lime-500 rounded"
             onClick={() => setSelectedButton("scientificData")}
@@ -298,7 +298,7 @@ const Home = () => {
             Comparing COG-SRS Plans
           </button>
         </div>
-        <div className="flex-1 p-4 bg-black">{renderContent()}</div>
+        <div className="flex-1 p-4 bg-black overflow-x-auto">{renderContent()}</div>
       </div>
     </div>
   );
