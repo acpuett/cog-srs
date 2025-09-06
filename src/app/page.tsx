@@ -11,6 +11,7 @@ export default function Home() {
         <title>COG-SRS</title>
       </Head>
       <Navbar />
+            <div className="border-t border-white"></div>
       <div className="bg-black min-h-screen flex flex-col items-center justify-center text-white">
         <div className="flex flex-col md:flex-row items-center justify-center w-full px-10 py-10">
           <Image src={brainpic} width={450} height={450} alt="brain pic" className="mb-10 md:mb-0" />

@@ -116,6 +116,7 @@ const Page = () => {
   return (
     <>
       <Navbar />
+            <div className="border-t border-white"></div>
          <div className="flex flex-col md:flex-row bg-black text-white h-screen p-8">
        <div className="flex flex-col md:w-2/5 space-y-8 pr-8 justify-center h-full">
           <div className="flex items-center space-x-4">

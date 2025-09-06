@@ -5,19 +5,19 @@ import Image, { StaticImageData } from "next/image";
 
 
 //POST-OP IMAGES
-import Mem1 from "../../../public/Mem1.jpg"
-import Lang1 from "../../../public/Lang1.jpg"
-import Speed1 from "../../../public/Speed1.jpg"
-import Motor1 from "../../../public/Motor1.jpg"
+import Mem1 from "../../../public/MEM1.png"
+import Lang1 from "../../../public/LANG1.png"
+import Speed1 from "../../../public/SPEED1.png"
+import Motor1 from "../../../public/MOTOR1.png"
 
 //INTACT IMAGES
-import Mem2 from "../../../public/Mem2.jpg"
-import Speed2 from "../../../public/Speed2.jpg"
+import Mem2 from "../../../public/MEM1.png"
+import Speed2 from "../../../public/SPEED2.png"
 
 //ARTERIOVENOUS IMAGES
-import Mem3 from "../../../public/Mem3.jpg"
-import Lang3 from "../../../public/Lang3.jpg"
-import Exec3 from "../../../public/Exec3.jpg"
+import Mem3 from "../../../public/MEM3.png"
+import Lang3 from "../../../public/LANG3.png"
+import Exec3 from "../../../public/EXEC3.png"
 
 // make them types, declare it here FIRST
 type PostOpOption = 
