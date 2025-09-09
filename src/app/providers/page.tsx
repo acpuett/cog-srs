@@ -127,14 +127,16 @@ const Home = () => {
                       and pathology.
                     </li>
                     <li>
-                      <strong>OARs:</strong> Cognition-critical structures include the
-                      hippocampi and eloquent white matter tracts (can be tailored to
-                      tumor location). Additional standard OARs per institutional
-                      guidelines.
+                      <strong>OARs:</strong> Key cognition-related structures include the 
+                      hippocampi and eloquent white matter tracts linked to specific 
+                      cognitive domains. These structures can be prioritized based on tumor 
+                      location. Standard OARs are also included per institutional guidelines.
                     </li>
                     <li>
-                      <strong>Derivation:</strong> Automated segmentation including
-                      DTI-based tractography with neuroradiology review.
+                      <strong>Derivation:</strong> Automated segmentation incorporates
+                      DTI-based tractography of major white matter tracts as well as 
+                      subcortical nuclei, including the hippocampi. All results undergo 
+                      neuroradiology review to ensure accuracy.
                     </li>
                   </ul>
                 </div>
@@ -145,13 +147,15 @@ const Home = () => {
                   </h3>
                   <ul className="list-disc list-inside space-y-3">
                     <li>
-                      <strong>Technique:</strong> Typically, volumetric modulated arc
-                      therapy.
+                      <strong>Technique:</strong> The example plans displayed were created 
+                      using framless, linac-based SRS. COG-SRS can also be implemented with 
+                      other radiosurgical platforms.
                     </li>
                     <li>
                       <strong>Prioritization:</strong> PTV coverage and standard OAR
-                      metrics per institutional policy followed by cognitive-sparing
-                      reductions.
+                      constraints are addressed first in accordance with institutional 
+                      policy, followed by targeted dose reductions to cognition-critical 
+                      structures. 
                     </li>
                     <li>
                       <strong>Iterate:</strong> DVH-guided replanning for
