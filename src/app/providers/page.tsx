@@ -147,9 +147,9 @@ const Home = () => {
                   </h3>
                   <ul className="list-disc list-inside space-y-3">
                     <li>
-                      <strong>Technique:</strong> The example plans displayed were created 
-                      using framless, linac-based SRS. COG-SRS can also be implemented with 
-                      other radiosurgical platforms.
+                      <strong>Technique:</strong> The example plans displayed on this site
+                      were created for frameless, linac-based SRS. COG-SRS can also be 
+                      implemented with other radiosurgical platforms.
                     </li>
                     <li>
                       <strong>Prioritization:</strong> PTV coverage and standard OAR
